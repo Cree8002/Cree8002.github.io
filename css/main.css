@@ -1,0 +1,135 @@
+html, body {
+margin: 0px;
+padding:0px;
+background: black;
+width: 100%;
+height: 100%;
+}
+
+/*Header*/
+.header .container {
+  background-color: #FFC91E;
+  width: 100%;
+  margin: 0px;
+}
+
+h1 {
+  text-align: left;
+  font-family: 'Acme', sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.col-md-4 ul li {
+  display: inline-block;
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 20px;
+  font-family: 'Acme', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.col-md-4 ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+/*Jumbotron*/
+.jumbotron {
+  height: 800px;
+  background:url("../img/duck.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.jumbotron h2 {
+  color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.jumbotron ul {
+  margin-top: 20px;
+}
+.jumbotron ul li {
+  list-style: none;
+  text-align: left;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #FFC91E;
+  font-size: 20px;
+}
+
+/*Supporting*/
+.supporting {
+  text-align: center;
+}
+
+.supporting h2 {
+  font-family: 'Acme', sans-serif;
+  font-weight: 600;
+  color: #FFC91E;
+}
+
+.supporting p {
+font-family: 'Acme', sans-serif;
+font-weight: 600;
+color: #8A867F;
+}
+
+/*Main*/
+.main {
+  background-color: grey;
+  height: 700px;
+}
+
+.main h2 {
+  text-align: center;
+  font-family: 'Acme', sans-serif;
+  font-weight: 600;
+  color: #FFC91E;
+  margin-top: 40px;
+}
+
+.main p {
+  font-family: 'Acme', sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.col-md-4 {
+  /*margin-top: 60px;*/
+  padding: 20px;
+}
+
+/*Footer*/
+.footer {
+  /*background: black;*/
+  width: 100%;
+  height: 20%;
+  margin: 0;
+  padding-top: 20px;
+  bottom:0;
+  left:0;
+}
+
+/*.footer .container_fluid {
+  margin: 0 auto;
+  padding: 0 10px;*/
+}
+.footer p {
+  font-family: 'Acme', sans-serif;
+  font-weight: 600;
+  color: black;
+  float: right;
+}
+
+.footer a {
+  text-decoration: none;
+  font-family: 'Acme', sans-serif;
+  font-weight: 600;
+  text-color: #8A867F;
+}
+
+.footer .pull-left {
+  color: black;
+}
